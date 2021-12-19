@@ -1,0 +1,100 @@
+[21:13:08] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[21:13:08] [Server thread/INFO]: Loading properties
+[21:13:08] [Server thread/INFO]: Default game type: SURVIVAL
+[21:13:09] [Server thread/INFO]: This server is running Paper version git-Paper-1619 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[21:13:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:13:09] [Server thread/INFO]: Debug logging is enabled
+[21:13:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:13:09] [Server thread/INFO]: Generating keypair
+[21:13:09] [Server thread/INFO]: Starting Minecraft server on *:25567
+[21:13:09] [Server thread/INFO]: Using default channel type
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent] Platform: Windows
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent0] -Dio.netty.noUnsafe: false
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent0] Java version: 8
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent0] sun.misc.Unsafe.theUnsafe: available
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent0] sun.misc.Unsafe.copyMemory: available
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent0] java.nio.Buffer.address: available
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent0] direct buffer constructor: available
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent0] java.nio.Bits.unaligned: available, true
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent0] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent0] java.nio.DirectByteBuffer.<init>(long, int): available
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent] sun.misc.Unsafe: available
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent] -Dio.netty.tmpdir: C:\Users\HP\AppData\Local\Temp (java.io.tmpdir)
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent] -Dio.netty.noPreferDirect: false
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent] -Dio.netty.maxDirectMemory: 1029177344 bytes
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.CleanerJava6] java.nio.ByteBuffer.cleaner(): available
+[21:13:09] [Server thread/DEBUG]: [io.netty.channel.MultithreadEventLoopGroup] -Dio.netty.eventLoopThreads: 4
+[21:13:09] [Server thread/DEBUG]: [io.netty.channel.nio.NioEventLoop] -Dio.netty.noKeySetOptimization: false
+[21:13:09] [Server thread/DEBUG]: [io.netty.channel.nio.NioEventLoop] -Dio.netty.selectorAutoRebuildThreshold: 512
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.PlatformDependent] org.jctools-core.MpscChunkedArrayQueue: available
+[21:13:09] [Server thread/TRACE]: [io.netty.channel.nio.NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5f657a64
+[21:13:09] [Server thread/TRACE]: [io.netty.channel.nio.NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@4a8c1869
+[21:13:09] [Server thread/TRACE]: [io.netty.channel.nio.NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@3ecefd06
+[21:13:09] [Server thread/TRACE]: [io.netty.channel.nio.NioEventLoop] instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5c130648
+[21:13:09] [Server thread/DEBUG]: [io.netty.channel.DefaultChannelId] -Dio.netty.processId: 7300 (auto-detected)
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.NetUtil] -Djava.net.preferIPv4Stack: false
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.NetUtil] -Djava.net.preferIPv6Addresses: false
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.NetUtil] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.NetUtil] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[21:13:09] [Server thread/DEBUG]: [io.netty.channel.DefaultChannelId] -Dio.netty.machineId: a4:17:31:ff:fe:22:dc:9f (auto-detected)
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[21:13:09] [Server thread/DEBUG]: [io.netty.util.internal.InternalThreadLocalMap] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.PooledByteBufAllocator] -Dio.netty.allocator.numHeapArenas: 10
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.PooledByteBufAllocator] -Dio.netty.allocator.numDirectArenas: 10
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.PooledByteBufAllocator] -Dio.netty.allocator.pageSize: 8192
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.PooledByteBufAllocator] -Dio.netty.allocator.maxOrder: 11
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.PooledByteBufAllocator] -Dio.netty.allocator.chunkSize: 16777216
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.PooledByteBufAllocator] -Dio.netty.allocator.tinyCacheSize: 512
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.PooledByteBufAllocator] -Dio.netty.allocator.smallCacheSize: 256
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.PooledByteBufAllocator] -Dio.netty.allocator.normalCacheSize: 64
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.PooledByteBufAllocator] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.PooledByteBufAllocator] -Dio.netty.allocator.cacheTrimInterval: 8192
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.PooledByteBufAllocator] -Dio.netty.allocator.useCacheForAllThreads: true
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.ByteBufUtil] -Dio.netty.allocator.type: pooled
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.ByteBufUtil] -Dio.netty.threadLocalDirectBufferSize: 0
+[21:13:09] [Server thread/DEBUG]: [io.netty.buffer.ByteBufUtil] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[21:13:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:13:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:13:09] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[21:13:09] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[21:13:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:13:09] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[21:13:09] [Server thread/INFO]: Preparing level "arcade-hub"
+[21:13:10] [Server thread/INFO]: -------- World Settings For [arcade-hub] --------
+[21:13:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[21:13:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:13:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:13:10] [Server thread/INFO]: View Distance: 10
+[21:13:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:13:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:13:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:13:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:13:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:13:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:13:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:13:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:13:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:13:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:13:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:13:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:13:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:13:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:13:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:13:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:13:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:13:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:13:10] [Server thread/INFO]: Random Lighting Updates: false
+[21:13:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[21:13:10] [Server thread/INFO]: Structure Info Saving: true
+[21:13:10] [Server thread/INFO]: Max TNT Explosions: 100
+[21:13:10] [Server thread/INFO]: Mob Spawn Range: 4
+[21:13:10] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
+[21:13:11] [Server thread/INFO]: Done (1,079s)! For help, type "help" or "?"
+[21:13:11] [Server thread/INFO]: Timings Reset
+[21:13:18] [Server thread/INFO]: Stopping the server
+[21:13:18] [Server thread/INFO]: Stopping server
+[21:13:18] [Server thread/INFO]: Saving players
+[21:13:19] [Server thread/INFO]: Saving worlds
+[21:13:19] [Server thread/INFO]: Saving chunks for level 'arcade-hub'/overworld

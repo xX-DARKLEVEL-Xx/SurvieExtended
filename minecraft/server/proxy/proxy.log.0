@@ -1,0 +1,71 @@
+14:42:57 [INFO] Using standard Java JCE cipher.
+14:42:57 [INFO] Using standard Java compressor.
+14:42:57 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:b4ccdaa:1625
+14:42:57 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+14:42:57 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+14:42:57 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+14:42:57 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+14:42:57 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+14:42:57 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+14:42:57 [INFO] Attempting to update plugin from null to ModuleVersion(build=1625, git=b4ccdaa)
+
+14:42:57 [INFO] Attempting to Jenkins download module cmd_alert v1625
+
+14:42:57 [INFO] Download complete
+
+14:42:57 [INFO] Attempting to update plugin from null to ModuleVersion(build=1625, git=b4ccdaa)
+
+14:42:57 [INFO] Attempting to Jenkins download module cmd_find v1625
+
+14:42:57 [INFO] Download complete
+
+14:42:57 [INFO] Attempting to update plugin from null to ModuleVersion(build=1625, git=b4ccdaa)
+
+14:42:57 [INFO] Attempting to Jenkins download module cmd_list v1625
+
+14:42:57 [INFO] Download complete
+
+14:42:57 [INFO] Attempting to update plugin from null to ModuleVersion(build=1625, git=b4ccdaa)
+
+14:42:57 [INFO] Attempting to Jenkins download module cmd_send v1625
+
+14:42:57 [INFO] Download complete
+
+14:42:57 [INFO] Attempting to update plugin from null to ModuleVersion(build=1625, git=b4ccdaa)
+
+14:42:57 [INFO] Attempting to Jenkins download module cmd_server v1625
+
+14:42:58 [INFO] Download complete
+
+14:42:58 [INFO] Attempting to update plugin from null to ModuleVersion(build=1625, git=b4ccdaa)
+
+14:42:58 [INFO] Attempting to Jenkins download module reconnect_yaml v1625
+
+14:42:58 [INFO] Download complete
+
+14:42:58 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [WARNING] Forced host server pvp is not defined
+14:42:58 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+14:42:58 [INFO] Listening on /0.0.0.0:25577
+14:43:13 [INFO] Closing listener [id: 0x59e6720e, L:/[0:0:0:0:0:0:0:0]:25577]
+14:43:13 [INFO] Closing pending connections
+14:43:13 [INFO] Disconnecting 0 connections
+14:43:13 [INFO] Saving reconnect locations
+14:43:13 [INFO] Disabling plugins
+14:43:13 [INFO] Closing IO threads

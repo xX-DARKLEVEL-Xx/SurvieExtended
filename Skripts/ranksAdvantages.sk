@@ -1,0 +1,46 @@
+#
+#	Skript by legitSebeleuuu#1348
+#	Instagram » sebeleuuu
+#
+#	For " Realistic survival 1.9.4 "
+#
+
+# Ranks advantages
+
+command /feed:
+	cooldown: 15 minutes
+	cooldown message: &cTu ne peux pas encore utiliser cette commande.
+
+	trigger:
+
+		if {rank.%player%} is "&6Roi" or "&4Administrateur&c":
+
+			set the player's food level to 10
+			message "&aTu as été rassacié."
+
+		else:
+
+			message " "
+			message "&4&lErreur &7»"
+			message " &cTu n'as pas le rôle requis. &8(&6Roi&8)"
+			message " &7&oAchetable dans la boutique. &b/boutique"
+			message " "
+
+command /heal:
+	cooldown: 30 minutes
+	cooldown message: &cTu ne peux pas encore utiliser cette commande.
+
+	trigger:
+
+		if {rank.%player%} is "&6Roi" or "&4Administrateur&c":
+
+			set player's health to 20
+			message "&aTu as été soigné."
+
+		else:
+
+			message " "
+			message "&4&lErreur &7»"
+			message " &cTu n'as pas le rôle requis. &8(&6Roi&8)"
+			message " &7&oAchetable dans la boutique. &b/boutique"
+			message " "

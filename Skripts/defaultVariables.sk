@@ -1,0 +1,40 @@
+#
+#	Skript by legitSebeleuuu#1348
+#	Instagram » sebeleuuu
+#
+#	For " Realistic survival 1.9.4 "
+#
+
+# Default variables setup
+
+on join:
+
+	if {coins.%player%} is not set:
+		set {coins.%player%} to 0
+
+	if {hypercoins.%player%} is not set:
+		set {hypercoins.%player%} to 0
+
+	if {account.%player%} is not set:
+		set {account.%player%} to "not banned"
+
+	if {rank.%player%} is not set:
+		set {rank.%player%} to "&7Joueur"
+
+	set {_waited} to difference between {deleteStat::%player%} and now
+	if {_waited} is less than 1 day:
+		stop
+
+	set {todayCoal.%player%} to 0
+	set {todayGold.%player%} to 0
+	set {todayRedstone.%player%} to 0
+	set {todayDiamond.%player%} to 0
+	set {todayEmerald.%player%} to 0
+	set {todayIron.%player%} to 0
+	set {todayLapis.%player%} to 0
+
+	set {deleteStat::%player%} to now
+
+
+
+

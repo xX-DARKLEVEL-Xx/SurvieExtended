@@ -1,0 +1,62 @@
+#
+#	Skript by legitSebeleuuu#1348
+#	Instagram » sebeleuuu
+#
+#	For " Realistic survival 1.9.4 "
+#
+
+# Ranks
+
+options:
+	prefix: &4Warden &7>
+
+command /ranks [<player>] [<text>]:
+	permission: admin
+	trigger:
+
+		if arg 1 is online:
+			if arg 1 is not set:
+
+				message "&7&m&l---&r   &9Ranks   &7>   &cMode d'utilisation   &7&m&l---"
+				message " "
+				message "&8/&7ranks <joueur> <rang>"
+				message " "
+
+			else:
+				if arg 2 is not set:
+
+					message "&7&m&l---&r   &9Ranks   &7>   &cMode d'utilisation   &7&m&l---"
+					message " "
+					message "&c&oVous n'avez pas spécifié de rang."
+					message "&8/&7ranks &a%arg-1% &c<rang>"
+					message " "
+
+				else if arg 2 is set:
+
+					if arg-2 is "admin":
+
+						set {rank.%player%} to "&4Administrateur&c"
+						message "{@prefix} &e%arg-2%&7 est désormais &4Administrateur&7."
+
+					else if arg-2 is "joueur":
+
+						set {rank.%player%} to "&7Joueur"
+						message "{@prefix} &e%arg-2%&7 est désormais &7Joueur."
+
+					else if arg-2 is "chevalier":
+
+						set {rank.%player%} to "&eChevalier"
+						message "{@prefix} &e%arg-2%&7 est désormais &eChevalier&7."
+
+					else if arg-2 is "roi":
+
+						set {rank.%player%} to "&6Roi"
+						message "{@prefix} &e%arg-2%&7 est désormais &6Roi."
+
+		else:
+
+			message "&7&m&l---&r   &9Ranks   &7>   &cMode d'utilisation   &7&m&l---"
+			message " "
+			message "&c&oLe joueur spécifié n'est pas connecté."
+			message " "
+

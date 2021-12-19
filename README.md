@@ -1,4 +1,4 @@
-## **SurvieExtended**
+# **SurvieExtended**
 
 SurvieExtended is a project of a new server Minecraft. 
 
@@ -7,6 +7,6 @@ SurvieExtended is a project of a new server Minecraft.
  
    
    
- # Authors 
+ ## Authors 
  
  [JLSebeleuuu](https://github.com/jLSebeleuuu) & [𝕯arklevel](https://github.com/xX-DARKLEVEL-Xx)

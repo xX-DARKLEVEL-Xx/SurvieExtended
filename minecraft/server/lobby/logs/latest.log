@@ -1,0 +1,25 @@
+[16:32:42] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[16:32:42] [Server thread/INFO]: Loading properties
+[16:32:42] [Server thread/INFO]: Default game type: SURVIVAL
+[16:32:42] [Server thread/INFO]: Generating keypair
+[16:32:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:32:42] [Server thread/INFO]: Using default channel type
+[16:32:43] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-f4830a1 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[16:32:43] [Server thread/INFO]: Preparing level "world"
+[16:32:44] [Server thread/INFO]: Preparing start region for level 0 (Seed: -8234883012775401837)
+[16:32:45] [Server thread/INFO]: Preparing spawn area: 10%
+[16:32:46] [Server thread/INFO]: Preparing spawn area: 30%
+[16:32:47] [Server thread/INFO]: Preparing spawn area: 45%
+[16:32:48] [Server thread/INFO]: Preparing spawn area: 61%
+[16:32:49] [Server thread/INFO]: Preparing spawn area: 83%
+[16:32:50] [Server thread/INFO]: Preparing start region for level 1 (Seed: -8234883012775401837)
+[16:32:51] [Server thread/INFO]: Preparing spawn area: 10%
+[16:32:52] [Server thread/INFO]: Preparing spawn area: 35%
+[16:32:53] [Server thread/INFO]: Preparing spawn area: 58%
+[16:32:54] [Server thread/INFO]: Preparing spawn area: 74%
+[16:32:55] [Server thread/INFO]: Preparing spawn area: 93%
+[16:32:55] [Server thread/INFO]: Preparing start region for level 2 (Seed: -8234883012775401837)
+[16:32:56] [Server thread/INFO]: Preparing spawn area: 52%
+[16:32:57] [Server thread/INFO]: Done (14,458s)! For help, type "help" or "?"
+[16:33:41] [User Authenticator #1/INFO]: UUID of player Sebeleuuu is 616fe256-bc7a-4e3f-a48f-18fc6efebf7c
+[16:33:41] [Server thread/INFO]: Sebeleuuu[/127.0.0.1:57670] logged in with entity id 632 at ([world]50.5, 64.0, 246.5)

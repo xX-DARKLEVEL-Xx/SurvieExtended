@@ -1,0 +1,29 @@
+function baseShop(p: player):
+	create a gui with id "InfoGUI" with virtual chest inventory with 3 rows named "&8&l» &6Boutique" and shape "xxxxxxxxx", "xAxBxCxDx" and "xxxxxxxxx":
+		make gui slot "x" with blue stained glass pane named " "
+
+		make gui slot "A" with spawner named "&aAnimaux":
+			animalShop({_p})
+
+		make gui slot "B" with emerald named "&bMinerais"
+		make gui slot "C" with name tag named "&7Utilitaires"
+		make gui slot "D" with paper named "&eGrades"
+
+	open last created gui to {_p}
+
+function animalShop(p: player):
+	create a gui with id "AnimalGUI" with virtual chest inventory with 3 rows named "&8&l» &6Boutique &7> &aAnimaux" and shape "ABCDEFGHI":
+		make gui slot "A" with cow spawn egg named "&8&l» &7Vache"
+		make gui slot "I" with chicken spawn egg named "&8&l» &7Poulet"
+		make gui slot "B" with pig spawn egg named "&8&l» &7Cochon"
+
+	open last created gui to {_p}
+
+command /boutique:
+	trigger:
+		baseShop(player)
+
+
+command /e:
+	trigger:
+		send "%player's tool%"

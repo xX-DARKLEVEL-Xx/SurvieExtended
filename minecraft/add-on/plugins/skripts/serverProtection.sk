@@ -1,0 +1,88 @@
+#
+#	Skript by legitSebeleuuu#1348
+#	Instagram » sebeleuuu
+#
+#	For " Realistic survival 1.9.4 "
+#
+
+# Server protection
+
+options:
+	prefix: &4Warden &7>
+
+on join:
+	if {account.%player%} is "banned":
+		kick player due to "{@prefix} &cAccès refusé, vous êtes banni."
+
+on chat:
+
+	if {chat.locked} is true:
+
+		message "{@prefix} &cDésolé, le chat est actuellement désactivé."
+		cancel event
+
+	else:
+		stop
+
+command /ban [<text>] [<text>]:
+	permission: admin
+	trigger:
+
+		if arg 1 is not set:
+
+			message "&7&m&l---&r   &4Warden   &7>   &cMode d'utilisation   &7&m&l---"
+			message " "
+			message "&8/&7kick <joueur> <raison>"
+			message " "
+
+		#else:
+
+command /kick [<text>] [<text>]:
+	permission: admin
+	trigger:
+
+		if arg 1 is not set:
+
+			message "&7&m&l---&r   &4Warden   &7>   &cMode d'utilisation   &7&m&l---"
+			message " "
+			message "&8/&7kick <joueur> <raison>"
+			message " "
+
+		#else:
+
+command /chat [<text>] [<text>]:
+	permission: admin
+	trigger:
+
+		if arg 1 is not set:
+
+			message "&7&m&l---&r   &4Warden   &7>   &cMode d'utilisation   &7&m&l---"
+			message " "
+			message "&8/&7chat on  &8-  &9Autorise l'accès au chat."
+			message "&8/&7chat off  &8-  &9Empeche l'accès au chat."
+			message "&8/&7chat clear  &8-  &9Supprime tous les messages."
+			message "&8/&7chat msg <message>  &8-  &9Envoie un message anonyme."
+			message " "
+
+		if arg 1 is "on":
+			set {chat.locked} to false
+			broadcast "{@prefix} &7L'accès au chat est désormais &aautorisé&7."
+
+		if arg 1 is "off":
+			set {chat.locked} to true
+			broadcast "{@prefix} &7L'accès au chat a été &cinterdit&7 par &4%player%&7."
+
+		if arg 1 is "msg":
+			if arg 2 is set:
+
+				broadcast "{@prefix} &e%arg-2%"
+
+			else:
+				message "{@prefix} &cVeuillez précisez à message a communiquer."
+
+		if arg 1 is "clear":
+
+			loop 400 times:
+				broadcast " "
+				
+			broadcast "{@prefix} &cLe chat a été supprimé par &4%player%&c."

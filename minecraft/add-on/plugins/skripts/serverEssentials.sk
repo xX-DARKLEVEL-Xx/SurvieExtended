@@ -1,0 +1,31 @@
+#
+#	Skript by legitSebeleuuu#1348
+#	Instagram » sebeleuuu
+#
+#	For " Realistic survival 1.9.4 "
+#
+
+# Essentials of a Server
+
+on chat:
+
+	replace all "&" with "§" in {rank.%player%}
+
+	if {rank.%player%} is not set:
+		set {rank.%player%} to "&7Joueur"
+		
+	set message format to "%{rank.%player%}% %player% &7» %message%"
+
+on join:
+	set join message to "&e%player%&7 a nous a rejoint."
+
+	message " "
+	message "&aTu es désormais connecté !"
+	message " &7&oAucune nouvelle actualité.."
+	message " "
+
+on quit:
+	set quit message to "&e%player%&7 nous a quitté."
+
+on death of player:
+	set death message to "&c%victim%&7 est mort."

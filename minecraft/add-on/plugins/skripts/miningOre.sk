@@ -1,0 +1,387 @@
+#
+#	Skript by legitSebeleuuu#1348
+#	Instagram » sebeleuuu
+#
+#	For " Realistic survival 1.9.4 "
+#
+
+# Changing mining ore  
+
+on block damage:
+  set {currentMining.%player%} to true
+
+on mine of iron ore:
+
+	if player doesn't have enough space for 1 of iron ingot:
+
+		cancel event
+		message " "
+		message "&4&lAvertissement &7»"
+		message " &cTu n'as plus de place dans ton inventaire !"
+		message " "
+
+	else:
+
+		cancel event
+		set event-block to air
+		damage player's tool by 1
+
+		if {currentMining.%player%} is true:
+
+			if {coinsBooster} is false:
+				add 2 to {coins.%player%}
+			else:
+				add 4 to {coins.%player%}
+
+			add 1 to {fer.%player%}
+			chance of 98%:
+				wait 1 ticks
+				set player action bar to "&7Tu as récolté &6%{fer.%player%}%&7 fer(s)."
+				set action bar of player to "&7Tu as récolté &6%{fer.%player%}%&7 fer(s)."
+
+				give player 1 of iron ingot
+		            
+				delete {currentMining.%player%}
+				add 1 to {globalIron.%player%}
+				add 1 to {todayIron.%player%}
+
+			chance of 2%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{fer.%player%}%&7 fer(s). &8(&6&lEXTRA +3&8)"
+				loop 3 times:
+					play sound "entity.experience_orb.pickup" with volume 0.5 to the player
+					wait 5 ticks
+				give player 3 of iron ingot
+		            
+				delete {currentMining.%player%}
+				add 3 to {globalIron.%player%}
+				add 3 to {todayIron.%player%}
+
+		wait 3 seconds
+
+		if {currentMining.%player%} is true:
+			stop
+		else:
+			delete {currentMining.%player%}
+			delete {fer.%player%}
+
+on mine of gold ore:
+
+	if player doesn't have enough space for 1 of gold ingot:
+
+		cancel event
+		message " "
+		message "&4&lAvertissement &7»"
+		message " &cTu n'as plus de place dans ton inventaire !"
+		message " "
+
+	else:
+
+		cancel event
+		set event-block to air
+		damage player's tool by 1
+
+		if {currentMining.%player%} is true:
+
+			if {coinsBooster} is false:
+				add 4 to {coins.%player%}
+			else:
+				add 8 to {coins.%player%}
+
+			add 1 to {gold.%player%}
+			chance of 98%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{gold.%player%}%&7 or(s)."
+				give player 1 of gold ingot
+		            
+				delete {currentMining.%player%}
+				add 1 to {globalGold.%player%}
+				add 1 to {todayGold.%player%}
+
+			chance of 2%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{gold.%player%}%&7 or(s). &8(&6&lEXTRA +3&8)"
+				loop 3 times:
+					play sound "entity.experience_orb.pickup" with volume 0.5 to the player
+					wait 5 ticks
+				give player 3 of gold ingot
+		            
+				delete {currentMining.%player%}
+				add 3 to {globalGold.%player%}
+				add 3 to {todayGold.%player%}
+
+		wait 3 seconds
+
+		if {currentMining.%player%} is true:
+			stop
+		else:
+			delete {currentMining.%player%}
+			delete {gold.%player%}
+
+on mine of diamond ore:
+
+	if player doesn't have enough space for 1 of diamond:
+
+		cancel event
+		message " "
+		message "&4&lAvertissement &7»"
+		message " &cTu n'as plus de place dans ton inventaire !"
+		message " "
+
+	else:
+
+		cancel event
+		set event-block to air
+		damage player's tool by 1
+
+		if {currentMining.%player%} is true:
+
+			if {coinsBooster} is false:
+				add 10 to {coins.%player%}
+			else:
+				add 20 to {coins.%player%}
+
+			add 1 to {diamond.%player%}
+			chance of 98%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{diamond.%player%}%&7 diamant(s)."
+				give player 1 of diamond
+		            
+				delete {currentMining.%player%}
+				add 1 to {globalDiamond.%player%}
+				add 1 to {todayDiamond.%player%}
+
+			chance of 2%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{diamond.%player%}%&7 diamant(s). &8(&6&lEXTRA +3&8)"
+				loop 3 times:
+					play sound "entity.experience_orb.pickup" with volume 0.5 to the player
+					wait 5 ticks
+				give player 3 of diamond
+		            
+				delete {currentMining.%player%}
+				add 3 to {globalDiamond.%player%}
+				add 3 to {todayDiamond.%player%}
+
+		wait 3 seconds
+
+		if {currentMining.%player%} is true:
+			stop
+		else:
+			delete {currentMining.%player%}
+			delete {diamond.%player%}
+
+on mine of coal ore:
+
+	if player doesn't have enough space for 1 of coal:
+
+		cancel event
+		message " "
+		message "&4&lAvertissement &7»"
+		message " &cTu n'as plus de place dans ton inventaire !"
+		message " "
+
+	else:
+
+		cancel event
+		set event-block to air
+		damage player's tool by 1
+
+		if {currentMining.%player%} is true:
+
+			if {coinsBooster} is false:
+				add 1 to {coins.%player%}
+			else:
+				add 2 to {coins.%player%}
+
+			add 1 to {coal.%player%}
+			chance of 98%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{coal.%player%}%&7 charbons."
+				give player 3 of coal
+		            
+				delete {currentMining.%player%}
+				add 3 to {globalCoal.%player%}
+				add 3 to {todayCoal.%player%}
+
+			chance of 2%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{coal.%player%}%&7 charbons. &8(&6&lEXTRA +3&8)"
+				loop 3 times:
+					play sound "entity.experience_orb.pickup" with volume 0.5 to the player
+					wait 5 ticks
+				give player 6 of coal
+		            
+				delete {currentMining.%player%}
+				add 6 to {globalCoal.%player%}
+				add 6 to {todayCoal.%player%}
+
+		wait 3 seconds
+
+		if {currentMining.%player%} is true:
+			stop
+		else:
+			delete {currentMining.%player%}
+			delete {coal.%player%}
+
+on mine of redstone ore:
+
+	if player doesn't have enough space for 1 of redstone:
+
+		cancel event
+		message " "
+		message "&4&lAvertissement &7»"
+		message " &cTu n'as plus de place dans ton inventaire !"
+		message " "
+
+	else:
+
+		cancel event
+		set event-block to air
+		damage player's tool by 1
+
+		if {currentMining.%player%} is true:
+
+			if {coinsBooster} is false:
+				add 1 to {coins.%player%}
+			else:
+				add 2 to {coins.%player%}
+
+			add 1 to {redstone.%player%}
+			chance of 98%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{redstone.%player%}%&7 redstones."
+				give player 3 of redstone
+		            
+				delete {currentMining.%player%}
+				add 3 to {globalRedstone.%player%}
+				add 3 to {todayRedstone.%player%}
+
+			chance of 2%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{redstone.%player%}%&7 redstones. &8(&6&lEXTRA +3&8)"
+				loop 3 times:
+					play sound "entity.experience_orb.pickup" with volume 0.5 to the player
+					wait 5 ticks
+				give player 6 of redstone
+		            
+				delete {currentMining.%player%}
+				add 6 to {globalRedstone.%player%}
+				add 6 to {todayRedstone.%player%}
+
+		wait 3 seconds
+
+		if {currentMining.%player%} is true:
+			stop
+		else:
+			delete {currentMining.%player%}
+			delete {redstone.%player%}
+
+on mine of lapis ore:
+
+	if player doesn't have enough space for 1 of lapis:
+
+		cancel event
+		message " "
+		message "&4&lAvertissement &7»"
+		message " &cTu n'as plus de place dans ton inventaire !"
+		message " "
+
+	else:
+
+		cancel event
+		set event-block to air
+		damage player's tool by 1
+
+		if {currentMining.%player%} is true:
+
+			if {coinsBooster} is false:
+				add 1 to {coins.%player%}
+			else:
+				add 2 to {coins.%player%}
+
+			add 1 to {lapis.%player%}
+			chance of 98%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{lapis.%player%}%&7 lapis."
+				give player 3 of lapis
+		            
+				delete {currentMining.%player%}
+				add 3 to {globalLapis.%player%}
+				add 3 to {todayLapis.%player%}
+
+			chance of 2%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{lapis.%player%}%&7 lapis. &8(&6&lEXTRA +3&8)"
+				loop 3 times:
+					play sound "entity.experience_orb.pickup" with volume 0.5 to the player
+					wait 5 ticks
+				give player 6 of lapis
+		            
+				delete {currentMining.%player%}
+				add 6 to {globalLapis.%player%}
+				add 6 to {todayLapis.%player%}
+
+		wait 3 seconds
+
+		if {currentMining.%player%} is true:
+			stop
+		else:
+			delete {currentMining.%player%}
+			delete {lapis.%player%}
+
+on mine of emerald ore:
+
+	if player doesn't have enough space for 1 of emerald:
+
+		cancel event
+		message " "
+		message "&4&lAvertissement &7»"
+		message " &cTu n'as plus de place dans ton inventaire !"
+		message " "
+
+	else:
+
+		cancel event
+		set event-block to air
+		damage player's tool by 1
+
+		if {currentMining.%player%} is true:
+
+			if {coinsBooster} is false:
+				add 30 to {coins.%player%}
+			else:
+				add 60 to {coins.%player%}
+
+			add 1 to {emerald.%player%}
+			chance of 98%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{emerald.%player%}%&7 émeraude(s)."
+				give player 1 of emerald
+		            
+				delete {currentMining.%player%}
+				add 1 to {globalEmerald.%player%}
+				add 1 to {todayEmerald.%player%}
+
+			chance of 2%:
+				wait 1 ticks
+				set action bar of player to "&7Tu as récolté &6%{emerald.%player%}%&7 émeraude(s). &8(&6&lEXTRA +1&8)"
+				loop 3 times:
+					play sound "entity.experience_orb.pickup" with volume 0.5 to the player
+					wait 5 ticks
+				give player 2 emerald
+		            
+				delete {currentMining.%player%}
+				add 2 to {globalEmerald.%player%}
+				add 2 to {todayEmerald.%player%}
+
+		wait 3 seconds
+
+		if {currentMining.%player%} is true:
+			stop
+		else:
+			delete {currentMining.%player%}
+			delete {emerald.%player%}
+
+	
+

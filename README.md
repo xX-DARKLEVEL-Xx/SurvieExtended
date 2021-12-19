@@ -1,12 +1,12 @@
-# SurvieExtended
+# **SurvieExtended**
 
 SurvieExtended is a project of a new server Minecraft. 
 
- Project developped in Skript.
-  Discord: https://discord.gg/vuq3fRsARA
+ Project developped in Skript. <br>
+  [Discord](https://discord.gg/vuq3fRsARA) 
  
    
    
- # Authors 
+ ## Authors 
  
- JLSebeleuuu#1348 & 𝕯arklevel#9289
+ [JLSebeleuuu](https://github.com/jLSebeleuuu) & [𝕯arklevel](https://github.com/xX-DARKLEVEL-Xx)

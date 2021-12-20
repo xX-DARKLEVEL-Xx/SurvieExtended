@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "45f74ae2-133f-48c4-92f4-371fcc3a07cd",
+    "name": "Darklevel14",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

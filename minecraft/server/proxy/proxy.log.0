@@ -147,3 +147,268 @@
 19:44:04 [INFO] [LuckPerms] Closing storage...
 19:44:04 [INFO] [LuckPerms] Goodbye!
 19:44:04 [INFO] Closing IO threads
+09:35:43 [INFO] Using standard Java JCE cipher.
+09:35:43 [INFO] Using standard Java compressor.
+09:35:43 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:b4ccdaa:1625
+09:35:44 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+09:35:44 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+09:35:44 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+09:35:44 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+09:35:44 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+09:35:44 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+09:35:44 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:45 [INFO] Loaded plugin LuckPerms version 5.3.89 by Luck
+09:35:45 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:45 [INFO] Loaded plugin ViaVersion version 4.1.1 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+09:35:45 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:45 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:45 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:45 [INFO] Loaded plugin ViaBackwards version 4.1.1 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1
+09:35:45 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:45 [WARNING] Forced host server pvp is not defined
+09:35:45 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:46 [INFO] §b       §3 __    
+09:35:46 [INFO] §b  |    §3|__)   §2LuckPerms§r §bv5.3.89
+09:35:46 [INFO] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+09:35:46 [INFO] 
+09:35:46 [INFO] [LuckPerms] Loading configuration...
+09:35:46 [INFO] [LuckPerms] Loading storage provider... [H2]
+09:35:47 [INFO] [LuckPerms] Loading internal permission managers...
+09:35:47 [INFO] [LuckPerms] Performing initial data load...
+09:35:47 [INFO] [LuckPerms] Successfully enabled. (took 1483ms)
+09:35:47 [INFO] Enabled plugin LuckPerms version 5.3.89 by Luck
+09:35:47 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:47 [INFO] [ViaVersion] Loading 1.12 -> 1.13 mappings...
+09:35:47 [INFO] [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+09:35:47 [INFO] [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+09:35:47 [INFO] [ViaVersion] Loading 1.14 -> 1.15 mappings...
+09:35:47 [INFO] [ViaVersion] Loading 1.15 -> 1.16 mappings...
+09:35:47 [INFO] [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+09:35:47 [INFO] [ViaVersion] Loading block connection mappings ...
+09:35:47 [INFO] [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+09:35:47 [INFO] [ViaVersion] Loading 1.17 -> 1.18 mappings...
+09:35:48 [INFO] [ViaBackwards] Loading translations...
+09:35:48 [INFO] [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+09:35:48 [INFO] [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+09:35:48 [INFO] [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+09:35:48 [INFO] [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+09:35:48 [INFO] [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+09:35:48 [INFO] [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+09:35:48 [INFO] [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+09:35:48 [INFO] [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+09:35:48 [INFO] [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+09:35:48 [INFO] [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+09:35:48 [INFO] [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+09:35:48 [INFO] Enabled plugin ViaVersion version 4.1.1 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+09:35:48 [INFO] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+09:35:48 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:48 [INFO] [ViaVersion] Highest supported version by the proxy: 1.18 (757)
+09:35:48 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:48 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:48 [INFO] Enabled plugin ViaBackwards version 4.1.1 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1
+09:35:48 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:35:48 [INFO] [ViaVersion] Finished mapping loading, shutting down loader executor!
+09:35:48 [INFO] Listening on /0.0.0.0:25565
+09:37:07 [INFO] [/127.0.0.1:55319] <-> InitialHandler has pinged
+09:37:17 [INFO] [/127.0.0.1:55324] <-> InitialHandler has connected
+09:37:18 [WARNING] Plugin listener me.lucko.luckperms.bungee.listeners.BungeePermissionCheckListener took 33ms to process event PermissionCheckEvent(sender=Darklevel14, permission=viaversion.update, hasPermission=false)!
+09:37:18 [WARNING] Plugin listener com.viaversion.viaversion.bungee.listeners.UpdateListener took 34ms to process event PostLoginEvent(player=Darklevel14)!
+09:37:18 [INFO] [Darklevel14] disconnected with: §cCould not connect to a default or fallback server, please try again later: io.netty.channel.AbstractChannel$AnnotatedConnectException
+09:37:18 [INFO] [Darklevel14] -> UpstreamBridge has disconnected
+09:37:50 [INFO] [/127.0.0.1:55336] <-> InitialHandler has pinged
+09:38:12 [INFO] [/127.0.0.1:55341] <-> InitialHandler has connected
+09:38:12 [INFO] [Darklevel14] disconnected with: §cCould not connect to a default or fallback server, please try again later: io.netty.channel.AbstractChannel$AnnotatedConnectException
+09:38:12 [INFO] [Darklevel14] -> UpstreamBridge has disconnected
+09:39:01 [INFO] CONSOLE executed command: /end
+09:39:01 [INFO] Closing listener [id: 0x78d0b2e8, L:/[0:0:0:0:0:0:0:0]:25565]
+09:39:01 [INFO] Closing pending connections
+09:39:01 [INFO] Disconnecting 0 connections
+09:39:02 [INFO] Saving reconnect locations
+09:39:02 [INFO] Disabling plugins
+09:39:02 [INFO] [LuckPerms] Starting shutdown process...
+09:39:02 [INFO] [LuckPerms] Closing storage...
+09:39:02 [INFO] [LuckPerms] Goodbye!
+09:39:02 [INFO] Closing IO threads
+09:39:19 [INFO] Using standard Java JCE cipher.
+09:39:19 [INFO] Using standard Java compressor.
+09:39:19 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:b4ccdaa:1625
+09:39:19 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+09:39:19 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+09:39:19 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+09:39:19 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+09:39:19 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+09:39:19 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+09:39:19 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:19 [INFO] Loaded plugin LuckPerms version 5.3.89 by Luck
+09:39:19 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:19 [INFO] Loaded plugin ViaVersion version 4.1.1 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+09:39:19 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:19 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:19 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:19 [INFO] Loaded plugin ViaBackwards version 4.1.1 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1
+09:39:19 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:19 [WARNING] Forced host server pvp is not defined
+09:39:19 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:20 [INFO] §b       §3 __    
+09:39:20 [INFO] §b  |    §3|__)   §2LuckPerms§r §bv5.3.89
+09:39:20 [INFO] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+09:39:20 [INFO] 
+09:39:20 [INFO] [LuckPerms] Loading configuration...
+09:39:20 [INFO] [LuckPerms] Loading storage provider... [H2]
+09:39:20 [INFO] [LuckPerms] Loading internal permission managers...
+09:39:20 [INFO] [LuckPerms] Performing initial data load...
+09:39:20 [INFO] [LuckPerms] Successfully enabled. (took 1100ms)
+09:39:20 [INFO] Enabled plugin LuckPerms version 5.3.89 by Luck
+09:39:20 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:21 [INFO] [ViaVersion] Loading 1.12 -> 1.13 mappings...
+09:39:21 [INFO] [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+09:39:21 [INFO] [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+09:39:21 [INFO] [ViaVersion] Loading block connection mappings ...
+09:39:21 [INFO] [ViaVersion] Loading 1.14 -> 1.15 mappings...
+09:39:21 [INFO] [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+09:39:21 [INFO] [ViaVersion] Loading 1.15 -> 1.16 mappings...
+09:39:21 [INFO] [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+09:39:21 [INFO] [ViaVersion] Loading 1.17 -> 1.18 mappings...
+09:39:21 [INFO] [ViaBackwards] Loading translations...
+09:39:21 [INFO] [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+09:39:21 [INFO] [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+09:39:21 [INFO] [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+09:39:22 [INFO] [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+09:39:22 [INFO] [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+09:39:22 [INFO] [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+09:39:22 [INFO] [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+09:39:22 [INFO] [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+09:39:22 [INFO] [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+09:39:22 [INFO] [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+09:39:22 [INFO] [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+09:39:22 [INFO] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+09:39:22 [INFO] Enabled plugin ViaVersion version 4.1.1 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+09:39:22 [INFO] [ViaVersion] Highest supported version by the proxy: 1.18 (757)
+09:39:22 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:22 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:22 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:22 [INFO] Enabled plugin ViaBackwards version 4.1.1 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1
+09:39:22 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+09:39:22 [INFO] [ViaVersion] Finished mapping loading, shutting down loader executor!
+09:39:22 [INFO] Listening on /0.0.0.0:25565
+09:39:25 [INFO] [/127.0.0.1:62225] <-> InitialHandler has pinged
+09:39:28 [INFO] [/127.0.0.1:62232] <-> InitialHandler has connected
+09:39:29 [WARNING] Plugin listener me.lucko.luckperms.bungee.listeners.BungeePermissionCheckListener took 25ms to process event PermissionCheckEvent(sender=Darklevel14, permission=viaversion.update, hasPermission=false)!
+09:39:29 [WARNING] Plugin listener com.viaversion.viaversion.bungee.listeners.UpdateListener took 26ms to process event PostLoginEvent(player=Darklevel14)!
+09:39:29 [INFO] [Darklevel14] <-> ServerConnector [hub-arcade] has connected
+09:39:29 [WARNING] Plugin listener com.viaversion.viaversion.bungee.handlers.BungeeServerHandler took 22ms to process event ServerConnectedEvent(player=Darklevel14, server=net.md_5.bungee.ServerConnection@1097c7df)!
+09:39:34 [INFO] Netty is not using direct IO buffers.
+
+09:41:12 [INFO] [Darklevel14] -> UpstreamBridge has disconnected
+09:41:12 [INFO] [Darklevel14] <-> DownstreamBridge <-> [hub-arcade] has disconnected
+09:41:13 [INFO] [/127.0.0.1:62250] <-> InitialHandler has pinged
+09:42:14 [INFO] CONSOLE executed command: /end
+09:42:14 [INFO] Closing listener [id: 0xcd56ae66, L:/[0:0:0:0:0:0:0:0]:25565]
+09:42:14 [INFO] Closing pending connections
+09:42:14 [INFO] Disconnecting 0 connections
+09:42:15 [INFO] Saving reconnect locations
+09:42:15 [INFO] Disabling plugins
+09:42:15 [INFO] [LuckPerms] Starting shutdown process...
+09:42:15 [INFO] [LuckPerms] Closing storage...
+09:42:15 [INFO] [LuckPerms] Goodbye!
+09:42:15 [INFO] Closing IO threads
+10:00:12 [INFO] Using standard Java JCE cipher.
+10:00:12 [INFO] Using standard Java compressor.
+10:00:12 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.18-R0.1-SNAPSHOT:b4ccdaa:1625
+10:00:13 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+
+10:00:13 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+
+10:00:13 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+
+10:00:13 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+
+10:00:13 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+
+10:00:13 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+10:00:13 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:13 [INFO] Loaded plugin LuckPerms version 5.3.89 by Luck
+10:00:13 [INFO] Loaded plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:13 [INFO] Loaded plugin ViaVersion version 4.1.1 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+10:00:13 [INFO] Loaded plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:13 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:13 [INFO] Loaded plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:13 [INFO] Loaded plugin ViaBackwards version 4.1.1 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1
+10:00:13 [INFO] Loaded plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:13 [WARNING] Forced host server pvp is not defined
+10:00:13 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:13 [INFO] §b       §3 __    
+10:00:13 [INFO] §b  |    §3|__)   §2LuckPerms§r §bv5.3.89
+10:00:13 [INFO] §b  |___ §3|      §8Running on BungeeCord - BungeeCord
+10:00:13 [INFO] 
+10:00:13 [INFO] [LuckPerms] Loading configuration...
+10:00:14 [INFO] [LuckPerms] Loading storage provider... [H2]
+10:00:14 [INFO] [LuckPerms] Loading internal permission managers...
+10:00:14 [INFO] [LuckPerms] Performing initial data load...
+10:00:14 [INFO] [LuckPerms] Successfully enabled. (took 1028ms)
+10:00:14 [INFO] Enabled plugin LuckPerms version 5.3.89 by Luck
+10:00:14 [INFO] Enabled plugin cmd_find version git:cmd_find:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:14 [INFO] [ViaVersion] Loading 1.12 -> 1.13 mappings...
+10:00:14 [INFO] [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+10:00:14 [INFO] [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+10:00:15 [INFO] [ViaVersion] Loading 1.14 -> 1.15 mappings...
+10:00:15 [INFO] [ViaVersion] Loading 1.15 -> 1.16 mappings...
+10:00:15 [INFO] [ViaVersion] Loading block connection mappings ...
+10:00:15 [INFO] [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+10:00:15 [INFO] [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+10:00:15 [INFO] [ViaVersion] Loading 1.17 -> 1.18 mappings...
+10:00:15 [INFO] [ViaBackwards] Loading translations...
+10:00:15 [INFO] [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+10:00:15 [INFO] [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+10:00:15 [INFO] [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+10:00:15 [INFO] [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+10:00:15 [INFO] [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+10:00:15 [INFO] [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+10:00:15 [INFO] [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+10:00:15 [INFO] [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+10:00:15 [INFO] [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+10:00:15 [INFO] [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+10:00:15 [INFO] [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+10:00:15 [INFO] Enabled plugin ViaVersion version 4.1.1 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv
+10:00:15 [INFO] [ViaVersion] ViaVersion detected lowest supported version by the proxy: 1.8.x (47)
+10:00:15 [INFO] Enabled plugin cmd_server version git:cmd_server:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:15 [INFO] [ViaVersion] Highest supported version by the proxy: 1.18 (757)
+10:00:15 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:15 [INFO] Enabled plugin cmd_send version git:cmd_send:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:15 [INFO] Enabled plugin ViaBackwards version 4.1.1 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1
+10:00:15 [INFO] Enabled plugin cmd_list version git:cmd_list:1.18-R0.1-SNAPSHOT:b4ccdaa:1625 by SpigotMC
+10:00:15 [INFO] [ViaVersion] Finished mapping loading, shutting down loader executor!
+10:00:15 [INFO] Listening on /0.0.0.0:25565
+10:00:58 [INFO] [/127.0.0.1:49428] <-> InitialHandler has pinged
+10:01:00 [INFO] [/127.0.0.1:49434] <-> InitialHandler has connected
+10:01:01 [WARNING] Plugin listener me.lucko.luckperms.bungee.listeners.BungeePermissionCheckListener took 28ms to process event PermissionCheckEvent(sender=Darklevel14, permission=viaversion.update, hasPermission=false)!
+10:01:01 [WARNING] Plugin listener com.viaversion.viaversion.bungee.listeners.UpdateListener took 28ms to process event PostLoginEvent(player=Darklevel14)!
+10:01:01 [INFO] [Darklevel14] <-> ServerConnector [hub-arcade] has connected
+10:01:04 [INFO] Netty is not using direct IO buffers.
+
+10:07:11 [INFO] [Darklevel14] -> UpstreamBridge has disconnected
+10:07:11 [INFO] [Darklevel14] <-> DownstreamBridge <-> [hub-arcade] has disconnected
+10:07:12 [INFO] [/127.0.0.1:63480] <-> InitialHandler has pinged
+10:07:18 [INFO] CONSOLE executed command: /end
+10:07:18 [INFO] Closing listener [id: 0x5e937013, L:/[0:0:0:0:0:0:0:0]:25565]
+10:07:18 [INFO] Closing pending connections
+10:07:18 [INFO] Disconnecting 0 connections
+10:07:18 [INFO] Saving reconnect locations
+10:07:18 [INFO] Disabling plugins
+10:07:18 [INFO] [LuckPerms] Starting shutdown process...
+10:07:18 [INFO] [LuckPerms] Closing storage...
+10:07:19 [INFO] [LuckPerms] Goodbye!
+10:07:19 [INFO] Closing IO threads

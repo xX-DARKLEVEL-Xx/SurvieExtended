@@ -1,159 +1,105 @@
 {
-  "minecraft:recipes/building_blocks/birch_stairs": {
-    "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/gray_banner": {
     "criteria": {
-      "has_gray_wool": "2021-12-13 20:32:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2021-12-13 20:44:12 +0100"
+      "has_gray_wool": "2021-12-20 10:02:36 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "in_water": "2021-12-13 20:20:09 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_trapdoor": {
-    "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_carpet": {
-    "criteria": {
-      "has_gray_wool": "2021-12-13 20:32:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/beacon": {
-    "criteria": {
-      "has_nether_star": "2021-12-15 17:16:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_bed": {
-    "criteria": {
-      "has_gray_wool": "2021-12-13 20:32:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/armor_stand": {
-    "criteria": {
-      "has_stone_slab": "2021-12-13 20:17:40 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_pressure_plate": {
-    "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_door": {
-    "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_slab": {
-    "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/map": {
-    "criteria": {
-      "has_compass": "2021-12-15 18:14:54 +0100"
+      "entered_water": "2021-12-20 10:02:56 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "in_water": "2021-12-13 20:20:09 +0100"
+      "entered_water": "2021-12-20 10:02:56 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/birch_button": {
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
     "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
+      "has_log2": "2021-12-20 10:05:36 +0100"
     },
     "done": true
   },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
-      "has_wool": "2021-12-13 20:32:50 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/barrel": {
-    "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/birch_fence_gate": {
-    "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
+      "has_wool": "2021-12-20 10:02:36 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "in_water": "2021-12-13 20:20:09 +0100"
+      "entered_water": "2021-12-20 10:02:56 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_boat": {
+  "minecraft:recipes/redstone/stone_button": {
     "criteria": {
-      "in_water": "2021-12-13 20:20:09 +0100"
+      "has_stone": "2021-12-20 10:05:29 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/birch_sign": {
+  "minecraft:recipes/building_blocks/stonebrick": {
     "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
+      "has_stone": "2021-12-20 10:05:29 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/birch_fence": {
+  "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
+      "has_stone": "2021-12-20 10:05:29 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/misc/stick": {
+  "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
-      "has_planks": "2021-12-13 20:32:10 +0100"
+      "has_stone": "2021-12-20 10:05:29 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2021-12-20 10:02:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2021-12-20 10:02:36 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "in_water": "2021-12-13 20:20:09 +0100"
+      "entered_water": "2021-12-20 10:02:56 +0100"
     },
     "done": true
   },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "in_water": "2021-12-13 20:20:09 +0100"
+      "entered_water": "2021-12-20 10:02:56 +0100"
     },
     "done": true
   },
-  "DataVersion": 2860
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2021-12-20 09:45:07 +0100",
+      "ocean": "2021-12-20 10:01:29 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2021-12-20 10:02:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2021-12-20 10:05:35 +0100"
+    },
+    "done": true
+  }
 }

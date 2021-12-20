@@ -48,3 +48,7 @@ servers:
     motd: ''
     address: localhost:25566
     restricted: false
+  hub-arcade:
+    motd: ''
+    address: localhost:25567
+    restricted: false
